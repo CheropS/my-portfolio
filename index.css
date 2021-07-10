@@ -26,4 +26,27 @@ h1, h2, h3 {
     font-size: large;
     margin-top: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.card-body {
+    width: 60%;
+    height: 5%;
+
+}
+.card2 {
+    box-shadow: 0 12px 16px 0;
+    width: 40%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.abtme {
+    display: flex;
+    flex-direction: row;
+    width: 83.5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 10px;
 }
