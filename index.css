@@ -19,3 +19,11 @@ li a {
 h1, h2, h3 {
     color: #86C232;
 }
+.card {
+    opacity: 0.7;
+    box-shadow: 0 12px 16px 0 #474b4f;
+    width: 40%;
+    font-size: large;
+    margin-top: 10px;
+    text-align: center;
+}
