@@ -1,0 +1,14 @@
+.navbar{
+    display: inline;
+    flex-direction: column;
+    justify-content: space-between;
+    color: blue;
+    padding: 16px;
+}
+li {
+    display: inline;
+    
+}
+li a {
+    padding: 14px 16px;
+}
