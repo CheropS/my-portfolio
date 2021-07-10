@@ -1,8 +1,12 @@
+*{
+    background-color:  #222629;
+    color: white;
+}
 .navbar{
     display: inline;
     flex-direction: column;
     justify-content: space-between;
-    color: blue;
+    color: #6b6e70;
     padding: 16px;
 }
 li {
@@ -11,4 +15,7 @@ li {
 }
 li a {
     padding: 14px 16px;
+}
+h1, h2, h3 {
+    color: #86C232;
 }
