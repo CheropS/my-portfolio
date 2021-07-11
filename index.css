@@ -4,21 +4,21 @@
 }
 .navbar{
     flex-direction: column;
-    justify-content: space-between
-    padding: 16px;
+    justify-content:space-between;
+    padding: 20px;
     background-image: url("img/girl\ reading.jpg");
     height: 400px;
 }
 li {
     display: inline;
-    
 }
+
 a {
     color: #86C232;
     text-decoration: none;
 }
 li a {
-    padding: 14px 16px;
+    padding: 10px 160px;
 }
 h1, h2, h3 {
     color: #86C232;
