@@ -26,6 +26,9 @@ h1, h2, h3 {
 h3, h2 {
     text-align: left;
 }
+body {
+    margin:auto !important;
+}
 .card {
     opacity: 0.7;
     box-shadow: 0 12px 16px 0 #474b4f;
