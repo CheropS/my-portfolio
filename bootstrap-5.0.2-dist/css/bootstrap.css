@@ -596,11 +596,11 @@ progress {
 .container-lg,
 .container-md,
 .container-sm {
-  width: 100%;
+  /* width: 100%; */
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
+  /* margin-right: auto;
+  margin-left: auto; */
 }
 
 @media (min-width: 576px) {
@@ -4253,7 +4253,6 @@ textarea.form-control-lg {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -6573,9 +6572,9 @@ textarea.form-control-lg {
   width: 75% !important;
 }
 
-.w-100 {
+/* .w-100 {
   width: 100% !important;
-}
+} */
 
 .w-auto {
   width: auto !important;

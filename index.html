@@ -9,46 +9,51 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container"> -->
         <div class="navbar">
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li style="float: right"><a>Projects</a></li>
-                <li style="float: right"><a>About Me</a></li>
+                <li style="float: right"><a href="#myprojects">Projects</a></li>
+                <li style="float: right"><a href="#about">About Me</a></li>
             </ul>
         </nav>
         </div>
         <section>
-            <div class="card">
-                <div class="card-body">
-                <ul>
-                    <p>Sharon Cherop</p>
-                    <p>Full Stack Developer</p>
-                </ul>
-            </div>
-                <div class="card-body">
-                    <img src="" alt="">
+            <div class="intro">
+                <div class="names">
+                    <!-- <div class="card">
+                        <ul>
+                             <p>Sharon Cherop</p>
+                             <p>Full Stack Developer</p>
+                            </ul>
+                    </div> -->
                 </div>
-            </div>
-            <div>
-                <h1>My Projects</h1>
-                <p>I have been working on projects in the past, and here is a list of some of them:</p>
-                <ol>
-                </ol>
-            </div>
-            <div>
-                <h1>About me</h1>
-                <h2>My Background</h2>
-                    <p>Do you want to know a little about me?</p>
-                        <h3>Education Background</h3>
-                            <p>I have a background of education in mathematics. I did my undergraduate degree at the Univeristy of Nairobi, Bachelor of Science in Mathematics.</p>
-                            <p>I later on did a professional paper in Certified Investment and Financial Analysis.</p>
-                            <p>While learning more about finances, I stumbled upon a course that required an integration of financial modelling and Python language.</p>
-                            <p>Instinctively, I started learning it but I could not grasp the whole knowledge of it since my background in programming was as little as negligible. For this reason, I opted to learn more about programming and lead me to become a developer.</p>
-                        <h3>Job Experience</h3>
-                            <p>I have worked mostly in organizations as a financial advisor or an accountant.</p>
-                            <p>I also have an experience in data analysis having worked for International Budget Partnership, Nairobi.</p>
+                <div class="card-body">
+                    <h1 id="about">About me</h1>
+                    <h2>My Background</h2>
+                        <p>Do you want to know a little about me?</p>
+                            <h3>Education Background</h3>
+                                <p>I have a background of education in mathematics. I did my undergraduate degree at the Univeristy of Nairobi, Bachelor of Science in Mathematics.</p>
+                                <p>I later on did a professional paper in Certified Investment and Financial Analysis.</p>
+                                <p>While learning more about finances, I stumbled upon a course that required an integration of financial modelling and Python language.</p>
+                                <p>Instinctively, I started learning it but I could not grasp the whole knowledge of it since my background in programming was as little as negligible. For this reason, I opted to learn more about programming and lead me to become a developer.</p>
+                            <h3>Job Experience</h3>
+                                <p>I have worked mostly in organizations as a financial advisor or an accountant.</p>
+                                <p>I also have an experience in data analysis having worked for International Budget Partnership, Nairobi.</p>
+                                </div>
+                <!--adding images-->
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="img/sha.jpg">
+                    <div class="card-body">
+                        <p class="card-text">Sharon Cherop</p>
+                        <p class="card-text">Fullstack Developer-Financial Analyst</p>
+                      </div>
+
+                  </div>
+                  </div>
+            <div class="abtme">
+                <div class="card-body">
                 <h2>Interests and Hobbies</h2>
                         <h3>Interests</h3>
                             <ol>
@@ -62,12 +67,55 @@
                                 <p>Travelling</p>
                                 <p>Writing</p>
                             </ol>
+                            </div>
+                <div class="card-img-top">
+                    <img src="img/sharry1.jpg" alt="full image" height="400px" width="300px">
+                </div>
             </div>
+                <!--my projects beg-->
+                    <div class="projects1">            
+                         <div class="col-sm-6">
+                                <h1 id="myprojects">My Projects</h1>
+                                <p>I have been working on projects in the past, and here is a list of some of them:</p>
+                                    <ol>
+                                        <div class="row">
+                                            <div class="card-img-top col-sm-6" style="width: 30%;">
+                                                <img src="img/resturant.png" alt="menu screenshot" width="400px">
+                                                <li>
+                                                <p>HTML</p>
+                                                <P>css</P>
+                                                <p>Javascript</p>
+                                                </li>
+                                                <li><a href="https://cherops.github.io/Anitas-KItchen/" target="_blank">Anita's Kitchen</a></li>
+                                            </div>
+                                    
+                                                <div class="col-sm-6" style="width:30%;">
+                                                    <img src="img/band.png" alt="screenshot fav band" width="400px">
+                                                    <li>
+                                                        <p>HTML</p>
+                                                        <P>CSS</P>
+                                                        <a href="https://cherops.github.io/Favorite-Band-Project/" target="_blank">My Favorite Band</a>
+                                                    </li>
+                                                </div>
+                                                <div class="col-sm-6" style="width: 30%;">
+                                                    <img src="img/keja.png" alt="screenshot" width="400px">
+                                                    <li>
+                                                        <p>HTML</p>
+                                                        <p>CSS</p>
+                                                        <p>Javascript</p>
+                                                        <a href="https://kwathuta.github.io/Keja-Chap-Chap/ target_blank" target="_blank">Keja chap chap</a>
+                                                    </li>
+                                                </div>
+                                            </div>
+                                    </ol>
+                            </div>
+                        </div>
+            </body>
         </section>
         <section>
             <footer>
-                <p>For more about me, check out my social media handles:</p>
-
+                <p>Copyright 2021</p>
+                <p>license MIT</p>
             </footer>
         </section>
         </div>

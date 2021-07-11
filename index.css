@@ -3,27 +3,81 @@
     color: white;
 }
 .navbar{
-    display: inline;
     flex-direction: column;
-    justify-content: space-between;
-    color: #6b6e70;
-    padding: 16px;
+    justify-content:space-between;
+    padding: 20px;
+    background-image: url("img/girl\ reading.jpg");
+    height: 400px;
 }
 li {
     display: inline;
-    
+}
+
+a {
+    color: #86C232;
+    text-decoration: none;
 }
 li a {
-    padding: 14px 16px;
+    padding: 10px 160px;
 }
 h1, h2, h3 {
     color: #86C232;
 }
+h3, h2 {
+    text-align: left;
+}
+body {
+    margin:auto !important;
+}
 .card {
     opacity: 0.7;
     box-shadow: 0 12px 16px 0 #474b4f;
-    width: 40%;
     font-size: large;
     margin-top: 10px;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+}
+.card-body {
+    width: 60%;
+    box-shadow: 0 12px 16px 0 #474b4f;
+    text-align:left;
+    
+
+}
+.card-img-top {
+    border-radius: 50px;
+}
+.intro {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    /* width:80%;  */
+    justify-content: space-between;
+   
+}
+.names {
+    margin-right: auto;
+    
+}
+
+.abtme {
+    width: 83.5%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 70px;
+    /* width:80%;  */
+    justify-content: space-evenly;
+}
+.col-sm-6 {
+    padding: 30px;
+    justify-content: space-evenly;
+}
+    
+    
+}
+footer {
     text-align: center;
 }
