@@ -71,7 +71,13 @@ body {
     /* width:80%;  */
     justify-content: space-evenly;
 }
-.projects1 {
-    display: flex;
+.col-sm-6 {
+    padding: 30px;
+    justify-content: space-evenly;
+}
     
+    
+}
+footer {
+    text-align: center;
 }
