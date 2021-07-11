@@ -6,12 +6,15 @@
     display: inline;
     flex-direction: column;
     justify-content: space-between;
-    color: #6b6e70;
     padding: 16px;
 }
 li {
     display: inline;
     
+}
+a {
+    color: #86C232;
+    text-decoration: none;
 }
 li a {
     padding: 14px 16px;
@@ -25,10 +28,9 @@ h3, h2 {
 .card {
     opacity: 0.7;
     box-shadow: 0 12px 16px 0 #474b4f;
-    width: 40%;
     font-size: large;
     margin-top: 10px;
-    text-align: center;
+    text-align:left;
     display: flex;
     flex-direction: column;
 }
@@ -43,12 +45,39 @@ h3, h2 {
     display: flex;
     flex-direction: row;
     padding: 20px;
-    width:auto;
+    width:80%;
     justify-content: space-between;
     margin-left: 10%;
     margin-right: 10%;
 }
+.names {
+    margin-right: auto;
+    
+}
 
+/*slideshow container */
+.slideshow.container {
+    max-width:50%;
+    position: relative;
+    margin: auto;
+}
+/* hide the images by default */
+.mySlides {
+    display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top:50%;
+    width:auto;
+    font-size: 18px;
+    transition: 0.8s ease;
+    border-radius: 0 3px 3px 0;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
 .abtme {
     display: flex;
     flex-direction: row;
