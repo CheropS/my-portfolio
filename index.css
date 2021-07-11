@@ -71,3 +71,7 @@ body {
     /* width:80%;  */
     justify-content: space-evenly;
 }
+.projects1 {
+    display: flex;
+    
+}
